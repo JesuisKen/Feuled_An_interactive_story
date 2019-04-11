@@ -1,0 +1,145 @@
+# V_1.0.1 (ALPHA)
+# Developer Team -- Arseny
+# Beta Tester(s): Hami J., Chris D., Sean C., Ramona B.
+# Date: 4-7-19
+# Exact Time Of Start: 2:53 Am
+# Game Name | Fueled
+
+Version = input("You are playing version 1.0.1 " + "\n\n\n( This game is in ALPHA / Please Report Any Bugs! )"+"\n\n\nPress Enter . . . ")
+Warning = input("WARNING: THIS GAME IS BEST PLAYED WITH CAPS LOCK OFF. . . " + "\n\nThank You! (Press Enter) ")
+
+Name_Your = input("What is your name? ")
+Money_On = input("How much money do you typically put in the gas tank when low? ($0.00): ")
+
+input("Okay " + Name_Your + " You will be separating " + Money_On + " for your gas today. " + "Your Cell phone is ringing. (Press Enter to Answer it) ")
+
+answer = input("Your friend hit you up and asked you if you wanna come over for a smoke session. " + "Ready to go? (Yes / No) ")
+
+if answer.lower().strip() == "yes":
+    print("You decide that maybe a good little smoke session and some friends couldn't be so bad today.")
+
+    answer_two = input("You grab your things and head out the door into the Ford Focus. " + "\"What an amazing day it is today,\" " + "You say to yourself silently in thought. " + "\n\nWhile driving, you notice the yellow gas light going off in your car. \"Shit I need some gas.\" You think out loud. " + "\n\n\"Can I hold out for now? \" (Yes / No)")
+
+    if answer_two.lower().strip() == "yes":
+        print("You decide to tough it out. I mean this isn't the first time this has happened before. " + "\n\nYou eventually run out of gas before getting to your friend. " + "(CTRL + F5) Try Again. . .")
+
+    elif answer_two == "no" or "No":
+        print("You decide that you have put your gas tank off for too long. " + "Luckily for you, you see two gas stations just up ahead! ")
+
+        answer = input("Would you like to go to Gasanova Or Legasies? ")
+
+        if answer.lower().strip() == "gasanova":
+
+            print("You pull into the Gasanova. " + "You just noticed how full the gas station is and it frustrates you. " + "\"Okay I am the worst at picking options.\"")
+
+            answer = input(
+                "Would you like to: Circle the pumps to find an available spot or Park next to the nearest car? " + "\n\nType: (Park / Pump) ")
+
+            if answer.lower().strip() == "pump":
+                print(
+                    "You circle the pumps in a slow, creepy but, understandable fashion. " + "\n\nSearching. . ." + "\n\nBut to no avail. \nYou decide to go Home, " + "leaving your friend in the dust for the 4th time in a row. \n\nHe killed himself but, you avoided the gas station situation. " + "You got the Secret win!")
+            elif answer == "park" or "Park":
+                print("You decide to park the car. " + "You see a white 2016 Chevy Impala " "sitting at pump two on the far left side of the Gasanova gas station. " + "\n\nIt isn't the closest pump by far but, the owner of the white vehicle seems to be moving like there is a fire on her ass. So you pick that pump. " + "\n\nYou slowly pull up behind her and put your car in park.")
+                answer = input("After about a five minute wait, you see a midnight tinted SUV pulling into the threshold of \"Gasanova.\" " + "\n\n(Keep Looking / Look Away?) ")
+
+                if answer.lower().strip() == "keep looking":
+                    print(
+                        "You decide to keep looking. . . " + "A caucasian male is seen exiting the black SUV finally. " + "He seems to be checking out the view. " + "\nHe looks across the street. \"Wait, is he looking at me?\" " + "I mean you must be crazy to think that this man could see you from so far. " + "\n\nMust you be? \n\n\nThe man notices you before illuminating a wide and bright grin and flashing you a wave. " + "\n\n(*The Man Now Remembers Your Car. . .) " + "After you get done getting your gas you make it to your friend. But suddenly a black SUV pulls up and shoots both of you. " + "\n\nNext time don't stare too hard at people. " + "R.I.P. " + Name_Your + ". . .")
+                elif answer == "look away":
+                    print("You look away. " + "Turning up the radio before checking your phone, you periodically wondering why the bitch in front of you still isn't gone yet. " + "\n\nThe owner is seen getting back into the car and pulling off. " + "Accelerating slightly forward and with your right hand, pushing the gear up to \"P.\"")
+
+                    answer = input(
+                        "You finally get around to paying for your items. " + "\"Hello\" You say to the cashier. \"What's going down " + "I haven't seen you around here since last week. " + "\n\n\"Shit just work and hobby's lately my friend.\" " + "\"That's good to hear bro.\" He says back. " + "\"Hey you got any smokes?\" " + "\n\n\"We do but, not your usual\" the merchant says. \n\n\"I think you'll have to go to Legasies and grab them today.\" " + "\n\n(Go to Legasies / Go Home?) ")
+                    if answer.lower().strip() == "go home":
+                        print(
+                            "You decide to go back home for some odd reason. But guess what you actually got a secret win! \n\nYou avoided the gas station scenario. . .but your friend has killed himself after exposing you on the internet for the time you fucked that tranny. . .\n\nWin /Win? (Press Ctrl + F5 To restart. . .")
+                    elif answer == "go to legasies" or "legasies":
+                        print(
+                            "Eating the snacks on your way to the car, you see the homeless man you gave the $20 to sleep on the sidewalk so you take your $20 back. " + "\n\nHe didn't need it. . ." + "\n\nYou head to Legasies for your smokes and gas. . . ")
+
+                        answer = input(
+                            "Pulling up to the gas station, you notice again how empty Legasies is. " + "\"is it me or is it too quiet for a sunny day?\" " + "\n\nYour intuition tells you there might be trouble but, you know it's just your mind playing dumb games on you. . . " + "\n\n(Gas Pump / Parking Space?) ")
+                        if answer.lower().strip() == "gas pump":
+                            print("You park at the gas pump. " + "You take a quick glance to see if you can see the inside of the store. \n\n\nYou can. . . " + "\n\n There seems to be no one inside but, the store says \"Open\". . .")
+
+                            answer = input("\n\n(Go in / Bang out?")
+
+                            if answer.lower().strip() == "go in":
+                                print(
+                                    "You head inside. Pushing the door open gently. " + "\n\n it's oddly silent. . . " + "With the exception of the bell that just rang as you enter the threshold. " + "\n\n\n\"Fuck it,\" you say to yourself as you start shopping aggressively. ")
+
+                            elif answer == "bang out":
+                                input(
+                                    "You decide to bang out. You head back to the car . . . " + "You see that there is an option on the pump. " + "\n\n( Pay at Pump / Go Home? )")
+                            else:
+                                print("You get shot in the forehead. . .\n\n(Ctrl + F5 to restart)")
+
+                        elif answer == "parking space":
+                            print(Name_Your + "pulls into the nearest parking space which so happens to be by the tinted SUV. " + "\"Hmm.\" " + "\n\nYou get out of the car and head into the building. " + "It's quiet. With the exception of the bell noise generated by the entrance of the door as you walked in.")
+
+                            answer = input("\n\n(Look around / Call out for someone?)")
+
+                            if answer.lower().strip() == "look around":
+                                print(
+                                    "You look around the station. " + "Walking down each and every isle. " + "\n\n\nYou hear the sound of a can drop behind you. " + "You turn around and get instantly greeted by a metal hammer. Followed by multiple strikes to the face. " + "\n\nNeedless to say, you died. . . (Ctrl + F5 to restart)")
+
+                            elif answer == "call out for someone":
+                                print(
+                                    "You call out for someone to see if anyone is here. " + "\n\nSomeone responds from around the corner. \"Oh hey yes, I'm glad you're here! Could you please help me lift this really quick?\" It sounds like the guy is struggling. " + "\n\nYou slowly walk around the corner and just as you do, you are shot in face.\n\n(Ctrl + F5 to restart)")
+
+                            else:
+                                print("You get shot in the forehead. . .\n\n(Ctrl + F5 to restart)")
+
+                                answer = input("You finally get out of the car. " + "The sudden warmth of wind breezing by as you exit the car and into civilization. " + "Taking one last look over toward the direction of where the man was. " + "\n\nHe's Gone. . . " + "\n\nGo Get Gas / Go Buy Snacks? ")
+
+                                if answer.lower().strip() == "go get gas":
+                                    print(
+                                        "You get out the car and begin walking up to the entrance of the gas station. " + "Trying to decide the amount you want to put in for your tank. " + "\n\nA homeless guy asks you for change and you slide him a $20. \n\nI mean it's great day after all! " + "You go into the store, searching for snacks and after picking out some treasure, you head to the cashier. " + "Of course there is a line though. " + "\n\nYou're thinking about putting " + Money_On + " On pump 2. . .")
+                                elif answer == "go buy snacks":
+                                    print(
+                                        "You get out the car and begin walking up to the entrance of the gas station. " + "\n\nTrying to decide the amount you want to put in for your tank. " + "\nA homeless guy asks you for change. . ." + "\n\nYou immediately start swinging on him. Dropping his shit real quick before everyone else at the gas station joins you. \n\nAfter coming out the store with your snacks, you get into the car and head home. " + "\n\nYou forgot to fill up your fucking tank. . .You ran out of gas on the freeway.")
+                                    answer = input("Would you like to call \"AAA?\" (RoadSide Assistance)" + "Type: (Yes / No)")
+                                    if answer.lower().strip() == "yes":
+                                        print(
+                                            "You call AAA. Some guy arrives 4 hours late and he seems to be having a bad day. " + "He is walking up to you pretty fast as if he has to hurry up. " + "\"Hey man where were yo-\" You tried to say before he grabs you and fucks you up on the freeway for wasting his time o'er unfilled gas. . . " + "R.I.P. " + Name_Your + " (Press CTRL + F5) ")
+                                    elif answer == "no":
+                                        print(
+                                            "You choose to sit still like a dummy on the side of the freeway, helpless. " + "\n\nEventually a cop pulls your already still car over. " + "\n\n\"Hey officer what seems to be the proble-\" You tried to say before he grabs you and fucks you up on the freeway for being innocent. . . " + "\n\n\nR.I.P. " + Name_Your + " (Press CTRL + F5) ")
+                                    else:
+                                        print(
+                                            "A big ass semi truck just so happens to lose control. \nSmashing your entire car against the freeway wall. " + "You didn't even stand close to a chance. " + "\n\nYou lose, " + Name_Your + "\Obviously. . . \n\n(Press Ctrl + F5)")
+                                else:
+                                    print(
+                                        "You accidentally pressed the acceleration while being an idiot. " + "(\n\nYou ran into a gas pump and blew everyone up . . .")
+                        else:
+                            print("You tripped off your shoe strings and died by cracking your face on the edge of the curb. " + "\n\n(Press Ctrl + F5 to restart)")
+                    else:
+                        print("You tripped off your shoe strings and died by cracking your face on the edge of the curb. " + "\n\n(Press Ctrl + F5 to restart) ")
+                else:
+                    print(
+                        "You accidentally pressed the acceleration while being an idiot. " + "(\n\nYou ran into a gas pump and blew everyone up . . .")
+            else:
+                print(
+                    "You accidentally Hit a car because you're a dumb ass! " + "\n\nThe owner shot you in the temple. . . ")
+
+        elif answer == "legasies":
+            print("Path Not Available yet. . .Sorry. " + "(Press Ctrl + F5)")
+
+        else:
+            print("I guess you can't read. You lose buddy. Try again. All because you can't spell / Read. . . ")
+
+    else:
+        print("You Swerved off the road and died. ")
+
+
+elif answer == "no":
+    print("You tell him that you aren't really in the mood for smoking. . ." + "\n\nYou let your friend down for the 4th time this week. ")
+
+else:
+    print("I'm guessing you don't know how to fucking spell. . .Try again mother fucker. ")
+
+
+
+
+
+
